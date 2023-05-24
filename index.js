@@ -17,3 +17,9 @@ function printArray(arr, n) {
   for (i = 0; i < n; i++) document.write(arr[i] + ' ')
   document.write('<br>')
 }
+
+let arr = [12, 11, 13, 5, 6]
+let n = arr.length
+
+insertionSort(arr, n)
+printArray(arr, n)

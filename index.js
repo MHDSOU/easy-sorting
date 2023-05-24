@@ -11,3 +11,9 @@ function insertionSort(arr, n) {
     arr[j + 1] = key
   }
 }
+
+function printArray(arr, n) {
+  let i
+  for (i = 0; i < n; i++) document.write(arr[i] + ' ')
+  document.write('<br>')
+}
